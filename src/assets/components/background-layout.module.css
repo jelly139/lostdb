@@ -1,0 +1,20 @@
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('C:\Users\bams\dm\projects\lostwiki\lostwiki\src\assets\beach-background.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+  }
+  
+  .content {
+    position: relative;
+    padding: 20px;
+    background-color: white;
+    z-index: 1;
+    max-width: 1200px;
+    margin: 0 auto;
+  }

@@ -1,0 +1,106 @@
+
+.lostpedia-home {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.lostpedia-header {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.lostpedia-header h1 {
+  margin: 0;
+}
+
+.lostpedia-header nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.lostpedia-header nav ul li {
+  display: inline;
+  margin: 0 15px;
+  cursor: pointer;
+  color: #0645ad;
+}
+
+.lostpedia-body {
+  display: flex;
+  margin: 20px;
+}
+
+.lostpedia-sidebar {
+  width: 20%;
+  margin-right: 20px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+.lostpedia-sidebar ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.lostpedia-sidebar ul li {
+  margin: 10px 0;
+  cursor: pointer;
+  color: #0645ad;
+}
+
+.lostpedia-content {
+  width: 75%;
+}
+
+.lostpedia-content h2 {
+  color: #333;
+  border-bottom: 1px solid #ddd;
+}
+
+.lostpedia-content p {
+  line-height: 1.6;
+}
+
+.lostpedia-footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #ddd;
+  margin-top: 20px;
+}
+
+.lostpedia-footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.main-container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+.outer-container {
+  margin: 50px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  min-height: calc(100vh - 100px);
+}
+
+.outer-margin {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: url('C:\Users\bams\dm\projects\lostwiki\lostwiki\src\assets\beach-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
