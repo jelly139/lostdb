@@ -1,5 +1,6 @@
 import './App.css';
 import { BrowserRouter as Router, Link, Route, Routes } from 'react-router-dom';
+import locations from './other-pages/locations';
 import characters from './other-pages/characters';
 
 const App = () => {
@@ -26,26 +27,20 @@ const App = () => {
             <nav>
               <ul>
                 <li><Link to="/characters">Characters</Link></li>
-                <li>Locations</li>
+                <li><Link to="/locations">Locations</Link></li>
                 <li>Events</li>
                 <li>Factions</li>
               </ul>
             </nav>
           </aside>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/characters" element={<characters />} />
-          </Routes>
         </div>
 
         <main className="lostpedia-content">
           <section>
-            <h2>LOST</h2>
-            <p>
-              Lost is a Television show that began airing on September 22, 2024.
-              Lost follows a group of survivors after crash landing on an Island.
-              Throughout the show, the survivors will encounter mysterious people, creatures, and locations all over the Island.
-            </p>
+            <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/characters" element={<characters />} />
+          </Routes>
           </section>
         </main>
       </>

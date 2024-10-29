@@ -1,7 +1,7 @@
 import React from 'react'
 import '../assets/components/dropdownlistC'
 import DropdownListC from '../assets/components/dropdownlistC'
-import axios from 'axios';
+
 
 const characters = () => {
     return (
@@ -11,6 +11,8 @@ const characters = () => {
         </div>
     );
 };
+
+
 
 
 
